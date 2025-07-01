@@ -14,64 +14,159 @@ Each document set has:
 EXPERIMENT_DATA = [
     {
         "id": "doc_001",
-        "document": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower. Constructed from 1887 to 1889 as the entrance to the 1889 World's Fair, it was initially criticized by some of France's leading artists and intellectuals for its design, but it has become a global cultural icon of France and one of the most recognizable structures in the world.",
+        "document": "The Jacquard machine is a draw loom that was first demonstrated in 1801 in Lyon, France. It was developed by French weaver and inventor Joseph Marie Jacquard. The machine is controlled by a number of punched cards, laced together into a continuous sequence. Multiple rows of holes are punched on each card, with one complete card corresponding to one row of the design. This use of replaceable punched cards to control a sequence of operations is considered an important step in the history of computing hardware, as it laid the foundation for programmability.",
         "qa_pairs": [
             {
                 "id": "q_001_01",
-                "question": "Where is the Eiffel Tower located?",
-                "answer": "The Eiffel Tower is located on the Champ de Mars in Paris, France."
+                "question": "What was used to control the Jacquard machine?",
+                "answer": "Punched cards."
             },
             {
-                "id": "q_001_02",
-                "question": "Who designed the Eiffel Tower?",
-                "answer": "The Eiffel Tower was designed by Gustave Eiffel's company."
+                "id": "q_002_01",
+                "question": "What don't axolotls undergo that other amphibians do?",
+                "answer": "Metamorphosis."
             },
             {
-                "id": "q_001_03",
-                "question": "What is the primary material of the Eiffel Tower?",
-                "answer": "The Eiffel Tower is a wrought-iron lattice tower."
-            }
+                "id": "q_003_01",
+                "question": "What country's government operates the Global Positioning System?",
+                "answer": "The United States."
+            },
+            {
+                "id": "q_004_01",
+                "question": "What language of text accompnies the scenes in the Bayeux Tapestry?",
+                "answer": "Latin."
+            },
+            {
+                "id": "q_005_01",
+                "question": "In what year was Aerogel invented?",
+                "answer": "1931."
+            },
         ]
     },
     {
         "id": "doc_002",
-        "document": "The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and other materials, generally built along an east-to-west line across the historical northern borders of China to protect the Chinese states and empires against the raids and invasions of the various nomadic groups of the Eurasian Steppe. Several walls were being built as early as the 7th century BC; these, later joined together and made bigger and stronger, are now collectively referred to as the Great Wall. Especially famous is the wall built 220–206 BC by Qin Shi Huang, the first Emperor of China.",
+        "document": "The axolotl, Ambystoma mexicanum, is a paedomorphic salamander closely related to the tiger salamander. Although the axolotl is colloquially known as a 'walking fish', it is not a fish, but an amphibian. The species was originally found in several lakes, such as Lake Xochimilco underlying Mexico City. Axolotls are unusual among amphibians in that they reach adulthood without undergoing metamorphosis. Instead of developing lungs and taking to the land, adults remain aquatic and gilled.",
         "qa_pairs": [
             {
+                "id": "q_001_01",
+                "question": "What was used to control the Jacquard machine?",
+                "answer": "Punched cards."
+            },
+            {
                 "id": "q_002_01",
-                "question": "What was the purpose of the Great Wall of China?",
-                "answer": "The Great Wall of China was built to protect the Chinese states and empires against the raids and invasions of various nomadic groups."
+                "question": "What don't axolotls undergo that other amphibians do?",
+                "answer": "Metamorphosis."
             },
             {
-                "id": "q_002_02",
-                "question": "Who was Qin Shi Huang?",
-                "answer": "Qin Shi Huang was the first Emperor of China."
+                "id": "q_003_01",
+                "question": "What country's government operates the Global Positioning System?",
+                "answer": "The United States."
             },
             {
-                "id": "q_002_03",
-                "question": "When were the earliest parts of the Great Wall built?",
-                "answer": "Several walls were being built as early as the 7th century BC."
-            }
+                "id": "q_004_01",
+                "question": "What language of text accompnies the scenes in the Bayeux Tapestry?",
+                "answer": "Latin."
+            },
+            {
+                "id": "q_005_01",
+                "question": "In what year was Aerogel invented?",
+                "answer": "1931."
+            },
         ]
     },
-    # Add more documents and Q&A pairs here
-    # Example of a question that might not be in the document:
-    # {
-    #     "id": "doc_003",
-    #     "document": "The capital of France is Paris. Paris is known for its art, fashion, and culture. The Louvre Museum, located in Paris, is one of the world's largest art museums.",
-    #     "qa_pairs": [
-    #         {
-    #             "id": "q_003_01",
-    #             "question": "What is the capital of France?",
-    #             "answer": "The capital of France is Paris."
-    #         },
-    #         {
-    #             "id": "q_003_02",
-    #             "question": "What is the population of Paris?", # This answer is not in the document
-    #             "answer": "The document does not provide an answer."
-    #         }
-    #     ]
-    # }
+    {
+        "id": "doc_003",
+        "document": "The Global Positioning System (GPS) is a satellite-based radionavigation system owned by the United States government and operated by the United States Space Force. The GPS constellation consists of about 30 satellites in medium Earth orbit in six different orbital planes, with the exact number of satellites varying as older satellites are retired and replaced. The system provides Geolocation and time information to a GPS receiver anywhere on or near the Earth where there is an unobstructed line of sight to four or more GPS satellites. The project was launched in the U.S. in 1973 to overcome the limitations of previous navigation systems.",
+        "qa_pairs": [
+            {
+                "id": "q_001_01",
+                "question": "What was used to control the Jacquard machine?",
+                "answer": "Punched cards."
+            },
+            {
+                "id": "q_002_01",
+                "question": "What don't axolotls undergo that other amphibians do?",
+                "answer": "Metamorphosis."
+            },
+            {
+                "id": "q_003_01",
+                "question": "What country's government operates the Global Positioning System?",
+                "answer": "The United States."
+            },
+            {
+                "id": "q_004_01",
+                "question": "What language of text accompnies the scenes in the Bayeux Tapestry?",
+                "answer": "Latin."
+            },
+            {
+                "id": "q_005_01",
+                "question": "In what year was Aerogel invented?",
+                "answer": "1931."
+            },
+        ]
+    },
+    {
+        "id": "doc_004",
+        "document": "The Bayeux Tapestry is an embroidered cloth nearly 70 metres (230 ft) long and 50 centimetres (20 in) tall that depicts the events leading up to the Norman conquest of England, culminating in the Battle of Hastings. It is thought to date to the 11th century, within a few years of the battle. Although it is called a tapestry, it is not a true tapestry in which the design is woven into the cloth; it is in fact an embroidery. The tapestry consists of some fifty scenes with Latin text, embroidered on linen with coloured woollen yarns.",
+        "qa_pairs": [
+            {
+                "id": "q_001_01",
+                "question": "What was used to control the Jacquard machine?",
+                "answer": "Punched cards."
+            },
+            {
+                "id": "q_002_01",
+                "question": "What don't axolotls undergo that other amphibians do?",
+                "answer": "Metamorphosis."
+            },
+            {
+                "id": "q_003_01",
+                "question": "What country's government operates the Global Positioning System?",
+                "answer": "The United States."
+            },
+            {
+                "id": "q_004_01",
+                "question": "What language of text accompnies the scenes in the Bayeux Tapestry?",
+                "answer": "Latin."
+            },
+            {
+                "id": "q_005_01",
+                "question": "In what year was Aerogel invented?",
+                "answer": "1931."
+            },
+        ]
+    },
+    {
+        "id": "doc_005",
+        "document": "Aerogel is a synthetic porous ultralight material derived from a gel, in which the liquid component for the gel has been replaced with a gas without significant collapse of the gel structure. The result is a solid with extremely low density and low thermal conductivity. Nicknamed 'frozen smoke', 'solid smoke', 'solid air', or 'blue smoke' owing to its translucent nature and the way light scatters in the material. Despite its name, aerogel is a solid, rigid, and dry material. It was first created by Samuel Stephens Kistler in 1931, as a result of a bet with Charles Learned over who could replace the liquid in 'jellies' with gas without causing shrinkage.",
+        "qa_pairs": [
+            {
+                "id": "q_001_01",
+                "question": "What was used to control the Jacquard machine?",
+                "answer": "Punched cards."
+            },
+            {
+                "id": "q_002_01",
+                "question": "What don't axolotls undergo that other amphibians do?",
+                "answer": "Metamorphosis."
+            },
+            {
+                "id": "q_003_01",
+                "question": "What country's government operates the Global Positioning System?",
+                "answer": "The United States."
+            },
+            {
+                "id": "q_004_01",
+                "question": "What language of text accompnies the scenes in the Bayeux Tapestry?",
+                "answer": "Latin."
+            },
+            {
+                "id": "q_005_01",
+                "question": "In what year was Aerogel invented?",
+                "answer": "1931."
+            },
+        ]
+    },
 ]
 
 if __name__ == '__main__':
