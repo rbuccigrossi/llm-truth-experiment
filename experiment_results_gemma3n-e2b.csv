@@ -1,0 +1,510 @@
+document_id,doc_index,question_id,q_index,prompt_type,prompt_description,full_prompt_text,llm_response
+doc_001,0,q_001_01,0,simple_question,"Simple question: Document, then question.","The Jacquard machine is a draw loom that was first demonstrated in 1801 in Lyon, France. It was developed by French weaver and inventor Joseph Marie Jacquard. The machine is controlled by a number of punched cards, laced together into a continuous sequence. Multiple rows of holes are punched on each card, with one complete card corresponding to one row of the design. This use of replaceable punched cards to control a sequence of operations is considered an important step in the history of computing hardware, as it laid the foundation for programmability.
+---
+What was used to control the Jacquard machine?","According to the text, the Jacquaard machine was controlled by **punched cards**. 
+
+Specifically, multiple rows of holes were punched on each card, and these cards were laced together to create a continuous sequence that dictated the machine's operation."
+doc_001,0,q_001_01,0,grounding,Grounding: Instructs LLM to use only the document.,"The Jacquard machine is a draw loom that was first demonstrated in 1801 in Lyon, France. It was developed by French weaver and inventor Joseph Marie Jacquard. The machine is controlled by a number of punched cards, laced together into a continuous sequence. Multiple rows of holes are punched on each card, with one complete card corresponding to one row of the design. This use of replaceable punched cards to control a sequence of operations is considered an important step in the history of computing hardware, as it laid the foundation for programmability.
+---
+Please answer the following question according to the document above:
+What was used to control the Jacquard machine?","According to the document, the Jacquaard machine was controlled by **punched cards**."
+doc_001,0,q_001_01,0,grounding_idk,Grounding + IDK: Instructs LLM to use document and say 'I don't know' if answer not present.,"The Jacquard machine is a draw loom that was first demonstrated in 1801 in Lyon, France. It was developed by French weaver and inventor Joseph Marie Jacquard. The machine is controlled by a number of punched cards, laced together into a continuous sequence. Multiple rows of holes are punched on each card, with one complete card corresponding to one row of the design. This use of replaceable punched cards to control a sequence of operations is considered an important step in the history of computing hardware, as it laid the foundation for programmability.
+---
+Please answer the following question according to the document above. If the document above does not answer the question, please reply 'The document does not provide an answer.':
+What was used to control the Jacquard machine?","According to the document, the Jacquaard machine was controlled by a number of **punched cards**. These cards were laced together into a continuous sequence, and each card had multiple rows of holes corresponding to a row of the design."
+doc_001,0,q_002_01,1,simple_question,"Simple question: Document, then question.","The Jacquard machine is a draw loom that was first demonstrated in 1801 in Lyon, France. It was developed by French weaver and inventor Joseph Marie Jacquard. The machine is controlled by a number of punched cards, laced together into a continuous sequence. Multiple rows of holes are punched on each card, with one complete card corresponding to one row of the design. This use of replaceable punched cards to control a sequence of operations is considered an important step in the history of computing hardware, as it laid the foundation for programmability.
+---
+What don't axolotls undergo that other amphibians do?","This question is completely unrelated to the text about the Jacquard loom. It seems like it's a random question inserted into the prompt. 
+
+**The question asks what axolotls don't undergo that other amphibians do.**
+
+Axolotls are a type of salamander that are unique because they retain their larval features throughout their adult life. This means they **do not undergo metamorphosis** like most other amphibians. 
+
+Here's a breakdown of what other amphibians *do* undergo:
+
+*   **Metamorphosis:** This is the most defining characteristic.  Amphibians typically start as larvae (like tadpoles) and then transform into a terrestrial adult form. This involves significant changes in body structure, breathing, and lifestyle.
+
+Therefore, the answer is: **Axolotls do not undergo metamorphosis.**"
+doc_001,0,q_002_01,1,grounding,Grounding: Instructs LLM to use only the document.,"The Jacquard machine is a draw loom that was first demonstrated in 1801 in Lyon, France. It was developed by French weaver and inventor Joseph Marie Jacquard. The machine is controlled by a number of punched cards, laced together into a continuous sequence. Multiple rows of holes are punched on each card, with one complete card corresponding to one row of the design. This use of replaceable punched cards to control a sequence of operations is considered an important step in the history of computing hardware, as it laid the foundation for programmability.
+---
+Please answer the following question according to the document above:
+What don't axolotls undergo that other amphibians do?","The provided text is about the Jacquard loom and doesn't mention axolotls or any other amphibians. Therefore, it's impossible to answer the question about what axolotls do that other amphibians don't, based solely on this document. 
+
+The question is not relevant to the text."
+doc_001,0,q_002_01,1,grounding_idk,Grounding + IDK: Instructs LLM to use document and say 'I don't know' if answer not present.,"The Jacquard machine is a draw loom that was first demonstrated in 1801 in Lyon, France. It was developed by French weaver and inventor Joseph Marie Jacquard. The machine is controlled by a number of punched cards, laced together into a continuous sequence. Multiple rows of holes are punched on each card, with one complete card corresponding to one row of the design. This use of replaceable punched cards to control a sequence of operations is considered an important step in the history of computing hardware, as it laid the foundation for programmability.
+---
+Please answer the following question according to the document above. If the document above does not answer the question, please reply 'The document does not provide an answer.':
+What don't axolotls undergo that other amphibians do?","The document does not provide an answer to the question about axolotls and other amphibians. 
+
+The document discusses the Jacquard loom and its history. It does not mention axolotls or any other amphibians.
+
+Therefore, the answer is: The document does not provide an answer."
+doc_001,0,q_003_01,2,simple_question,"Simple question: Document, then question.","The Jacquard machine is a draw loom that was first demonstrated in 1801 in Lyon, France. It was developed by French weaver and inventor Joseph Marie Jacquard. The machine is controlled by a number of punched cards, laced together into a continuous sequence. Multiple rows of holes are punched on each card, with one complete card corresponding to one row of the design. This use of replaceable punched cards to control a sequence of operations is considered an important step in the history of computing hardware, as it laid the foundation for programmability.
+---
+What country's government operates the Global Positioning System?","The provided text is about the Jacquard loom and doesn't contain any information about the Global Positioning System (GPS) or its operating country. 
+
+Therefore, I cannot answer your question based on the given text. 
+
+**The Global Positioning System (GPS) is operated by the United States government.**"
+doc_001,0,q_003_01,2,grounding,Grounding: Instructs LLM to use only the document.,"The Jacquard machine is a draw loom that was first demonstrated in 1801 in Lyon, France. It was developed by French weaver and inventor Joseph Marie Jacquard. The machine is controlled by a number of punched cards, laced together into a continuous sequence. Multiple rows of holes are punched on each card, with one complete card corresponding to one row of the design. This use of replaceable punched cards to control a sequence of operations is considered an important step in the history of computing hardware, as it laid the foundation for programmability.
+---
+Please answer the following question according to the document above:
+What country's government operates the Global Positioning System?","The provided text describes the Jacquard loom and its history. It does **not** contain any information about the Global Positioning System (GPS) or its governing country. 
+
+Therefore, based on the text, the answer is: **The text does not provide information about the country that operates the Global Positioning System.**"
+doc_001,0,q_003_01,2,grounding_idk,Grounding + IDK: Instructs LLM to use document and say 'I don't know' if answer not present.,"The Jacquard machine is a draw loom that was first demonstrated in 1801 in Lyon, France. It was developed by French weaver and inventor Joseph Marie Jacquard. The machine is controlled by a number of punched cards, laced together into a continuous sequence. Multiple rows of holes are punched on each card, with one complete card corresponding to one row of the design. This use of replaceable punched cards to control a sequence of operations is considered an important step in the history of computing hardware, as it laid the foundation for programmability.
+---
+Please answer the following question according to the document above. If the document above does not answer the question, please reply 'The document does not provide an answer.':
+What country's government operates the Global Positioning System?","The document does not provide an answer to the question about the Global Positioning System. 
+
+The document discusses the Jacquard loom and its history.
+
+
+
+The document does not provide an answer."
+doc_001,0,q_004_01,3,simple_question,"Simple question: Document, then question.","The Jacquard machine is a draw loom that was first demonstrated in 1801 in Lyon, France. It was developed by French weaver and inventor Joseph Marie Jacquard. The machine is controlled by a number of punched cards, laced together into a continuous sequence. Multiple rows of holes are punched on each card, with one complete card corresponding to one row of the design. This use of replaceable punched cards to control a sequence of operations is considered an important step in the history of computing hardware, as it laid the foundation for programmability.
+---
+What language of text accompnies the scenes in the Bayeux Tapestry?","The text accompanying the scenes in the Bayeux Tapestry is **Latin**. 
+
+The passage you provided describes the Jacquard loom and its significance in computing history. The Bayeux Tapestry, however, is a historical textile that depicts the Norman Conquest of England. The inscriptions on the tapestry are in Latin, a language commonly used in Western Europe during the 11th century. 
+
+Therefore, the answer is **Latin**."
+doc_001,0,q_004_01,3,grounding,Grounding: Instructs LLM to use only the document.,"The Jacquard machine is a draw loom that was first demonstrated in 1801 in Lyon, France. It was developed by French weaver and inventor Joseph Marie Jacquard. The machine is controlled by a number of punched cards, laced together into a continuous sequence. Multiple rows of holes are punched on each card, with one complete card corresponding to one row of the design. This use of replaceable punched cards to control a sequence of operations is considered an important step in the history of computing hardware, as it laid the foundation for programmability.
+---
+Please answer the following question according to the document above:
+What language of text accompnies the scenes in the Bayeux Tapestry?","The provided text describes the Jacquard loom and its history, but it **does not mention the Bayeux Tapestry or what language it uses.** 
+
+Therefore, based on the given text, the answer is: **The text does not mention the Bayeux Tapestry or its language.** 
+
+The text focuses solely on the Jacquard loom."
+doc_001,0,q_004_01,3,grounding_idk,Grounding + IDK: Instructs LLM to use document and say 'I don't know' if answer not present.,"The Jacquard machine is a draw loom that was first demonstrated in 1801 in Lyon, France. It was developed by French weaver and inventor Joseph Marie Jacquard. The machine is controlled by a number of punched cards, laced together into a continuous sequence. Multiple rows of holes are punched on each card, with one complete card corresponding to one row of the design. This use of replaceable punched cards to control a sequence of operations is considered an important step in the history of computing hardware, as it laid the foundation for programmability.
+---
+Please answer the following question according to the document above. If the document above does not answer the question, please reply 'The document does not provide an answer.':
+What language of text accompnies the scenes in the Bayeux Tapestry?","The document does not provide an answer to the question about the language of the Bayeux Tapestry. It focuses on the Jacquard loom and its history.
+
+The document does not provide an answer."
+doc_001,0,q_005_01,4,simple_question,"Simple question: Document, then question.","The Jacquard machine is a draw loom that was first demonstrated in 1801 in Lyon, France. It was developed by French weaver and inventor Joseph Marie Jacquard. The machine is controlled by a number of punched cards, laced together into a continuous sequence. Multiple rows of holes are punched on each card, with one complete card corresponding to one row of the design. This use of replaceable punched cards to control a sequence of operations is considered an important step in the history of computing hardware, as it laid the foundation for programmability.
+---
+In what year was Aerogel invented?","The provided text is about the Jacquard loom and doesn't mention anything about the invention of aerogel. 
+
+Therefore, the answer is **the text doesn't provide information about when aerogel was invented.** 
+
+It's possible the question is a trick! The text is designed to be about the Jacquard loom, and the question is a distraction."
+doc_001,0,q_005_01,4,grounding,Grounding: Instructs LLM to use only the document.,"The Jacquard machine is a draw loom that was first demonstrated in 1801 in Lyon, France. It was developed by French weaver and inventor Joseph Marie Jacquard. The machine is controlled by a number of punched cards, laced together into a continuous sequence. Multiple rows of holes are punched on each card, with one complete card corresponding to one row of the design. This use of replaceable punched cards to control a sequence of operations is considered an important step in the history of computing hardware, as it laid the foundation for programmability.
+---
+Please answer the following question according to the document above:
+In what year was Aerogel invented?","The provided text discusses the Jacquard loom and its history. It does **not** mention AeroGel or its invention year. 
+
+Therefore, based on the text, the answer is: **The text does not contain information about when AeroGel was invented.**"
+doc_001,0,q_005_01,4,grounding_idk,Grounding + IDK: Instructs LLM to use document and say 'I don't know' if answer not present.,"The Jacquard machine is a draw loom that was first demonstrated in 1801 in Lyon, France. It was developed by French weaver and inventor Joseph Marie Jacquard. The machine is controlled by a number of punched cards, laced together into a continuous sequence. Multiple rows of holes are punched on each card, with one complete card corresponding to one row of the design. This use of replaceable punched cards to control a sequence of operations is considered an important step in the history of computing hardware, as it laid the foundation for programmability.
+---
+Please answer the following question according to the document above. If the document above does not answer the question, please reply 'The document does not provide an answer.':
+In what year was Aerogel invented?","The document does not provide an answer to the question about when AeroGel was invented. It discusses the Jacquard loom, not AeroGel.
+
+The document does not provide an answer."
+doc_002,1,q_001_01,0,simple_question,"Simple question: Document, then question.","The axolotl, Ambystoma mexicanum, is a paedomorphic salamander closely related to the tiger salamander. Although the axolotl is colloquially known as a 'walking fish', it is not a fish, but an amphibian. The species was originally found in several lakes, such as Lake Xochimilco underlying Mexico City. Axolotls are unusual among amphibians in that they reach adulthood without undergoing metamorphosis. Instead of developing lungs and taking to the land, adults remain aquatic and gilled.
+---
+What was used to control the Jacquard machine?","The provided text is about axolotls, not Jacquard machines. Therefore, the question cannot be answered from the given information. 
+
+The text describes the characteristics of the axolotl, a type of salamander. 
+
+To answer your question, I would need information about Jacquard machines. 
+
+**However, I can tell you that Jacquard machines were controlled by punched cards.** These cards contained patterns that dictated which threads were raised or lowered, creating the intricate designs woven into textiles."
+doc_002,1,q_001_01,0,grounding,Grounding: Instructs LLM to use only the document.,"The axolotl, Ambystoma mexicanum, is a paedomorphic salamander closely related to the tiger salamander. Although the axolotl is colloquially known as a 'walking fish', it is not a fish, but an amphibian. The species was originally found in several lakes, such as Lake Xochimilco underlying Mexico City. Axolotls are unusual among amphibians in that they reach adulthood without undergoing metamorphosis. Instead of developing lungs and taking to the land, adults remain aquatic and gilled.
+---
+Please answer the following question according to the document above:
+What was used to control the Jacquard machine?","The provided text describes the axolotl, a type of amphibian, but it **does not mention anything about Jacquard machines or how they were used for control.** 
+
+Therefore, based on the text, the answer is: **The text does not provide information about what was used to control a Jacquard machine.**
+
+
+
+It seems the question is a bit out of place given the content of the text. The text focuses solely on the axolotl."
+doc_002,1,q_001_01,0,grounding_idk,Grounding + IDK: Instructs LLM to use document and say 'I don't know' if answer not present.,"The axolotl, Ambystoma mexicanum, is a paedomorphic salamander closely related to the tiger salamander. Although the axolotl is colloquially known as a 'walking fish', it is not a fish, but an amphibian. The species was originally found in several lakes, such as Lake Xochimilco underlying Mexico City. Axolotls are unusual among amphibians in that they reach adulthood without undergoing metamorphosis. Instead of developing lungs and taking to the land, adults remain aquatic and gilled.
+---
+Please answer the following question according to the document above. If the document above does not answer the question, please reply 'The document does not provide an answer.':
+What was used to control the Jacquard machine?","The document does not provide any information about what was used to control a Jacquard machine. Therefore, the answer is:
+
+The document does not provide an answer."
+doc_002,1,q_002_01,1,simple_question,"Simple question: Document, then question.","The axolotl, Ambystoma mexicanum, is a paedomorphic salamander closely related to the tiger salamander. Although the axolotl is colloquially known as a 'walking fish', it is not a fish, but an amphibian. The species was originally found in several lakes, such as Lake Xochimilco underlying Mexico City. Axolotls are unusual among amphibians in that they reach adulthood without undergoing metamorphosis. Instead of developing lungs and taking to the land, adults remain aquatic and gilled.
+---
+What don't axolotls undergo that other amphibians do?","According to the text, axolotls don't undergo metamorphosis like other amphibians. 
+
+Other amphibians typically develop lungs and become terrestrial (land-dwelling) as they mature. Axolotls, however, remain aquatic and retain their gills throughout their adult lives."
+doc_002,1,q_002_01,1,grounding,Grounding: Instructs LLM to use only the document.,"The axolotl, Ambystoma mexicanum, is a paedomorphic salamander closely related to the tiger salamander. Although the axolotl is colloquially known as a 'walking fish', it is not a fish, but an amphibian. The species was originally found in several lakes, such as Lake Xochimilco underlying Mexico City. Axolotls are unusual among amphibians in that they reach adulthood without undergoing metamorphosis. Instead of developing lungs and taking to the land, adults remain aquatic and gilled.
+---
+Please answer the following question according to the document above:
+What don't axolotls undergo that other amphibians do?","According to the document, axolotls don't undergo metamorphosis like other amphibians. Other amphibians develop lungs and become terrestrial, while axolotls remain aquatic and gill-breathing throughout their lives."
+doc_002,1,q_002_01,1,grounding_idk,Grounding + IDK: Instructs LLM to use document and say 'I don't know' if answer not present.,"The axolotl, Ambystoma mexicanum, is a paedomorphic salamander closely related to the tiger salamander. Although the axolotl is colloquially known as a 'walking fish', it is not a fish, but an amphibian. The species was originally found in several lakes, such as Lake Xochimilco underlying Mexico City. Axolotls are unusual among amphibians in that they reach adulthood without undergoing metamorphosis. Instead of developing lungs and taking to the land, adults remain aquatic and gilled.
+---
+Please answer the following question according to the document above. If the document above does not answer the question, please reply 'The document does not provide an answer.':
+What don't axolotls undergo that other amphibians do?","According to the document, axolotls are unusual among amphibians because they **reach adulthood without undergoing metamorphosis**. Other amphibians typically develop lungs and become terrestrial."
+doc_002,1,q_003_01,2,simple_question,"Simple question: Document, then question.","The axolotl, Ambystoma mexicanum, is a paedomorphic salamander closely related to the tiger salamander. Although the axolotl is colloquially known as a 'walking fish', it is not a fish, but an amphibian. The species was originally found in several lakes, such as Lake Xochimilco underlying Mexico City. Axolotls are unusual among amphibians in that they reach adulthood without undergoing metamorphosis. Instead of developing lungs and taking to the land, adults remain aquatic and gilled.
+---
+What country's government operates the Global Positioning System?","This text is about the axolotl, a type of salamander. It does **not** contain any information about the Global Positioning System (GPS) or which country's government operates it. 
+
+Therefore, the answer to your question cannot be determined from this text. 
+
+The GPS is operated by a consortium of governments, primarily the United States, Canada, and the United Kingdom."
+doc_002,1,q_003_01,2,grounding,Grounding: Instructs LLM to use only the document.,"The axolotl, Ambystoma mexicanum, is a paedomorphic salamander closely related to the tiger salamander. Although the axolotl is colloquially known as a 'walking fish', it is not a fish, but an amphibian. The species was originally found in several lakes, such as Lake Xochimilco underlying Mexico City. Axolotls are unusual among amphibians in that they reach adulthood without undergoing metamorphosis. Instead of developing lungs and taking to the land, adults remain aquatic and gilled.
+---
+Please answer the following question according to the document above:
+What country's government operates the Global Positioning System?","The provided text is about the axolotl, a type of salamander. It does **not** contain any information about the Global Positioning System (GPS) or any country's government that operates it. 
+
+Therefore, based on the text, the answer is: **The text does not provide information about this question.**"
+doc_002,1,q_003_01,2,grounding_idk,Grounding + IDK: Instructs LLM to use document and say 'I don't know' if answer not present.,"The axolotl, Ambystoma mexicanum, is a paedomorphic salamander closely related to the tiger salamander. Although the axolotl is colloquially known as a 'walking fish', it is not a fish, but an amphibian. The species was originally found in several lakes, such as Lake Xochimilco underlying Mexico City. Axolotls are unusual among amphibians in that they reach adulthood without undergoing metamorphosis. Instead of developing lungs and taking to the land, adults remain aquatic and gilled.
+---
+Please answer the following question according to the document above. If the document above does not answer the question, please reply 'The document does not provide an answer.':
+What country's government operates the Global Positioning System?","The document does not provide an answer to the question. 
+
+The document discusses the axolotl, a type of amphibian, and its characteristics. It does not mention the Global Positioning System or any country's government that operates it. 
+
+Therefore, the answer is: The document does not provide an answer."
+doc_002,1,q_004_01,3,simple_question,"Simple question: Document, then question.","The axolotl, Ambystoma mexicanum, is a paedomorphic salamander closely related to the tiger salamander. Although the axolotl is colloquially known as a 'walking fish', it is not a fish, but an amphibian. The species was originally found in several lakes, such as Lake Xochimilco underlying Mexico City. Axolotls are unusual among amphibians in that they reach adulthood without undergoing metamorphosis. Instead of developing lungs and taking to the land, adults remain aquatic and gilled.
+---
+What language of text accompnies the scenes in the Bayeux Tapestry?","The provided text describes the Axolotl, a fascinating amphibian. It **does not** contain information about the Bayeux Tapestry or the language used in it. 
+
+Therefore, based solely on the given text, we **cannot** determine what language accompanies the scenes in the Bayeux Tapestry. 
+
+The Bayeux Tapestry is a historical textile and is primarily written in **Old Norman French**."
+doc_002,1,q_004_01,3,grounding,Grounding: Instructs LLM to use only the document.,"The axolotl, Ambystoma mexicanum, is a paedomorphic salamander closely related to the tiger salamander. Although the axolotl is colloquially known as a 'walking fish', it is not a fish, but an amphibian. The species was originally found in several lakes, such as Lake Xochimilco underlying Mexico City. Axolotls are unusual among amphibians in that they reach adulthood without undergoing metamorphosis. Instead of developing lungs and taking to the land, adults remain aquatic and gilled.
+---
+Please answer the following question according to the document above:
+What language of text accompnies the scenes in the Bayeux Tapestry?","The provided text is about the axolotl, a type of salamander. It **does not** contain information about the Bayeux Tapestry or the language used in it. 
+
+Therefore, the answer is: **The text does not contain information about the Bayeux Tapestry or its language.**"
+doc_002,1,q_004_01,3,grounding_idk,Grounding + IDK: Instructs LLM to use document and say 'I don't know' if answer not present.,"The axolotl, Ambystoma mexicanum, is a paedomorphic salamander closely related to the tiger salamander. Although the axolotl is colloquially known as a 'walking fish', it is not a fish, but an amphibian. The species was originally found in several lakes, such as Lake Xochimilco underlying Mexico City. Axolotls are unusual among amphibians in that they reach adulthood without undergoing metamorphosis. Instead of developing lungs and taking to the land, adults remain aquatic and gilled.
+---
+Please answer the following question according to the document above. If the document above does not answer the question, please reply 'The document does not provide an answer.':
+What language of text accompnies the scenes in the Bayeux Tapestry?","The document does not provide an answer. It discusses the axolotl, a type of amphibian, and its characteristics. It does not mention the Bayeux Tapestry or its language.
+
+The document does not provide an answer."
+doc_002,1,q_005_01,4,simple_question,"Simple question: Document, then question.","The axolotl, Ambystoma mexicanum, is a paedomorphic salamander closely related to the tiger salamander. Although the axolotl is colloquially known as a 'walking fish', it is not a fish, but an amphibian. The species was originally found in several lakes, such as Lake Xochimilco underlying Mexico City. Axolotls are unusual among amphibians in that they reach adulthood without undergoing metamorphosis. Instead of developing lungs and taking to the land, adults remain aquatic and gilled.
+---
+In what year was Aerogel invented?","The provided text is about the axolotl, a type of salamander. It does **not** contain any information about the invention of aerogel. 
+
+Therefore, I cannot answer your question based on the given text. 
+
+Aerogel was invented in **1930** by Bruno Wilken and Dr. Otto Diels."
+doc_002,1,q_005_01,4,grounding,Grounding: Instructs LLM to use only the document.,"The axolotl, Ambystoma mexicanum, is a paedomorphic salamander closely related to the tiger salamander. Although the axolotl is colloquially known as a 'walking fish', it is not a fish, but an amphibian. The species was originally found in several lakes, such as Lake Xochimilco underlying Mexico City. Axolotls are unusual among amphibians in that they reach adulthood without undergoing metamorphosis. Instead of developing lungs and taking to the land, adults remain aquatic and gilled.
+---
+Please answer the following question according to the document above:
+In what year was Aerogel invented?","The provided text discusses the axolotl, a type of salamander, and its characteristics. It does **not** contain any information about the invention of aerogel. 
+
+Therefore, based on the text, the answer is: **The text does not provide information about when aerogel was invented.**"
+doc_002,1,q_005_01,4,grounding_idk,Grounding + IDK: Instructs LLM to use document and say 'I don't know' if answer not present.,"The axolotl, Ambystoma mexicanum, is a paedomorphic salamander closely related to the tiger salamander. Although the axolotl is colloquially known as a 'walking fish', it is not a fish, but an amphibian. The species was originally found in several lakes, such as Lake Xochimilco underlying Mexico City. Axolotls are unusual among amphibians in that they reach adulthood without undergoing metamorphosis. Instead of developing lungs and taking to the land, adults remain aquatic and gilled.
+---
+Please answer the following question according to the document above. If the document above does not answer the question, please reply 'The document does not provide an answer.':
+In what year was Aerogel invented?","The document does not provide an answer to the question about when aerogel was invented. 
+
+The document discusses the axolotl, a type of amphibian, but nothing about aerogel.
+
+The document does not provide an answer."
+doc_003,2,q_001_01,0,simple_question,"Simple question: Document, then question.","The Global Positioning System (GPS) is a satellite-based radionavigation system owned by the United States government and operated by the United States Space Force. The GPS constellation consists of about 30 satellites in medium Earth orbit in six different orbital planes, with the exact number of satellites varying as older satellites are retired and replaced. The system provides Geolocation and time information to a GPS receiver anywhere on or near the Earth where there is an unobstructed line of sight to four or more GPS satellites. The project was launched in the U.S. in 1973 to overcome the limitations of previous navigation systems.
+---
+What was used to control the Jacquard machine?","The provided text is about the GPS system and doesn't mention the Jacquard machine. Therefore, it's impossible to answer your question based on this text. 
+
+The Jacquard machine was a mechanical loom invented in the early 19th century. It used punched cards to automate the weaving of complex patterns. 
+
+**To answer your question, I would need information about the Jacquard machine.** 
+
+Perhaps you meant to ask a different question, or there's a typo in your prompt?"
+doc_003,2,q_001_01,0,grounding,Grounding: Instructs LLM to use only the document.,"The Global Positioning System (GPS) is a satellite-based radionavigation system owned by the United States government and operated by the United States Space Force. The GPS constellation consists of about 30 satellites in medium Earth orbit in six different orbital planes, with the exact number of satellites varying as older satellites are retired and replaced. The system provides Geolocation and time information to a GPS receiver anywhere on or near the Earth where there is an unobstructed line of sight to four or more GPS satellites. The project was launched in the U.S. in 1973 to overcome the limitations of previous navigation systems.
+---
+Please answer the following question according to the document above:
+What was used to control the Jacquard machine?","The provided text discusses the GPS system, not the Jacquard machine. Therefore, the text **does not** contain information about what was used to control a Jacquard machine. 
+
+The question is based on a misunderstanding of the document's content. 
+
+**Answer:** The document does not provide information about what controlled a Jacquard machine."
+doc_003,2,q_001_01,0,grounding_idk,Grounding + IDK: Instructs LLM to use document and say 'I don't know' if answer not present.,"The Global Positioning System (GPS) is a satellite-based radionavigation system owned by the United States government and operated by the United States Space Force. The GPS constellation consists of about 30 satellites in medium Earth orbit in six different orbital planes, with the exact number of satellites varying as older satellites are retired and replaced. The system provides Geolocation and time information to a GPS receiver anywhere on or near the Earth where there is an unobstructed line of sight to four or more GPS satellites. The project was launched in the U.S. in 1973 to overcome the limitations of previous navigation systems.
+---
+Please answer the following question according to the document above. If the document above does not answer the question, please reply 'The document does not provide an answer.':
+What was used to control the Jacquard machine?","The document does not provide information about a ""Jacquard machine"" or how it was controlled. It discusses the GPS system.
+
+The document does not provide an answer."
+doc_003,2,q_002_01,1,simple_question,"Simple question: Document, then question.","The Global Positioning System (GPS) is a satellite-based radionavigation system owned by the United States government and operated by the United States Space Force. The GPS constellation consists of about 30 satellites in medium Earth orbit in six different orbital planes, with the exact number of satellites varying as older satellites are retired and replaced. The system provides Geolocation and time information to a GPS receiver anywhere on or near the Earth where there is an unobstructed line of sight to four or more GPS satellites. The project was launched in the U.S. in 1973 to overcome the limitations of previous navigation systems.
+---
+What don't axolotls undergo that other amphibians do?","This is a trick question! The text is about GPS, a satellite-based navigation system. It doesn't mention any amphibians or what they undergo. 
+
+Therefore, the answer is **nothing** - the question is irrelevant to the provided text. 
+
+It seems like the question was designed to test if you could identify the topic and disregard irrelevant information."
+doc_003,2,q_002_01,1,grounding,Grounding: Instructs LLM to use only the document.,"The Global Positioning System (GPS) is a satellite-based radionavigation system owned by the United States government and operated by the United States Space Force. The GPS constellation consists of about 30 satellites in medium Earth orbit in six different orbital planes, with the exact number of satellites varying as older satellites are retired and replaced. The system provides Geolocation and time information to a GPS receiver anywhere on or near the Earth where there is an unobstructed line of sight to four or more GPS satellites. The project was launched in the U.S. in 1973 to overcome the limitations of previous navigation systems.
+---
+Please answer the following question according to the document above:
+What don't axolotls undergo that other amphibians do?","The provided text doesn't mention any amphibians or what they undergo. It focuses solely on the GPS system, its components, and its purpose. 
+
+Therefore, the question as it's phrased is not answerable based on the given document. It seems to be a trick question or a question based on outside knowledge. 
+
+**The document doesn't contain information about amphibians.**"
+doc_003,2,q_002_01,1,grounding_idk,Grounding + IDK: Instructs LLM to use document and say 'I don't know' if answer not present.,"The Global Positioning System (GPS) is a satellite-based radionavigation system owned by the United States government and operated by the United States Space Force. The GPS constellation consists of about 30 satellites in medium Earth orbit in six different orbital planes, with the exact number of satellites varying as older satellites are retired and replaced. The system provides Geolocation and time information to a GPS receiver anywhere on or near the Earth where there is an unobstructed line of sight to four or more GPS satellites. The project was launched in the U.S. in 1973 to overcome the limitations of previous navigation systems.
+---
+Please answer the following question according to the document above. If the document above does not answer the question, please reply 'The document does not provide an answer.':
+What don't axolotls undergo that other amphibians do?","The document does not provide an answer to the question about what doesn't axolotls undergo that other amphibians do. 
+
+The document describes the GPS system, which is a satellite-based navigation system. It does not mention axolotls or amphibians. 
+
+Therefore, the answer is: The document does not provide an answer."
+doc_003,2,q_003_01,2,simple_question,"Simple question: Document, then question.","The Global Positioning System (GPS) is a satellite-based radionavigation system owned by the United States government and operated by the United States Space Force. The GPS constellation consists of about 30 satellites in medium Earth orbit in six different orbital planes, with the exact number of satellites varying as older satellites are retired and replaced. The system provides Geolocation and time information to a GPS receiver anywhere on or near the Earth where there is an unobstructed line of sight to four or more GPS satellites. The project was launched in the U.S. in 1973 to overcome the limitations of previous navigation systems.
+---
+What country's government operates the Global Positioning System?","The United States government operates the Global Positioning System (GPS). The text explicitly states this. 
+
+Therefore, the answer is **United States**."
+doc_003,2,q_003_01,2,grounding,Grounding: Instructs LLM to use only the document.,"The Global Positioning System (GPS) is a satellite-based radionavigation system owned by the United States government and operated by the United States Space Force. The GPS constellation consists of about 30 satellites in medium Earth orbit in six different orbital planes, with the exact number of satellites varying as older satellites are retired and replaced. The system provides Geolocation and time information to a GPS receiver anywhere on or near the Earth where there is an unobstructed line of sight to four or more GPS satellites. The project was launched in the U.S. in 1973 to overcome the limitations of previous navigation systems.
+---
+Please answer the following question according to the document above:
+What country's government operates the Global Positioning System?","According to the document, the **United States government** operates the Global Positioning System (GPS)."
+doc_003,2,q_003_01,2,grounding_idk,Grounding + IDK: Instructs LLM to use document and say 'I don't know' if answer not present.,"The Global Positioning System (GPS) is a satellite-based radionavigation system owned by the United States government and operated by the United States Space Force. The GPS constellation consists of about 30 satellites in medium Earth orbit in six different orbital planes, with the exact number of satellites varying as older satellites are retired and replaced. The system provides Geolocation and time information to a GPS receiver anywhere on or near the Earth where there is an unobstructed line of sight to four or more GPS satellites. The project was launched in the U.S. in 1973 to overcome the limitations of previous navigation systems.
+---
+Please answer the following question according to the document above. If the document above does not answer the question, please reply 'The document does not provide an answer.':
+What country's government operates the Global Positioning System?","The document states that the Global Positioning System (GPS) is operated by the United States Space Force. Therefore, the answer is the **United States**."
+doc_003,2,q_004_01,3,simple_question,"Simple question: Document, then question.","The Global Positioning System (GPS) is a satellite-based radionavigation system owned by the United States government and operated by the United States Space Force. The GPS constellation consists of about 30 satellites in medium Earth orbit in six different orbital planes, with the exact number of satellites varying as older satellites are retired and replaced. The system provides Geolocation and time information to a GPS receiver anywhere on or near the Earth where there is an unobstructed line of sight to four or more GPS satellites. The project was launched in the U.S. in 1973 to overcome the limitations of previous navigation systems.
+---
+What language of text accompnies the scenes in the Bayeux Tapestry?","The provided text is about the Global Positioning System (GPS). It does **not** contain information about the Bayeux Tapestry or the language it uses. 
+
+Therefore, I cannot answer your question based on the given text. The text is completely unrelated to the Bayeux Tapestry. 
+
+The Bayeux Tapestry is an embroidered cloth that tells the story of the Norman Conquest of England in 1066. It is written in **Old English**."
+doc_003,2,q_004_01,3,grounding,Grounding: Instructs LLM to use only the document.,"The Global Positioning System (GPS) is a satellite-based radionavigation system owned by the United States government and operated by the United States Space Force. The GPS constellation consists of about 30 satellites in medium Earth orbit in six different orbital planes, with the exact number of satellites varying as older satellites are retired and replaced. The system provides Geolocation and time information to a GPS receiver anywhere on or near the Earth where there is an unobstructed line of sight to four or more GPS satellites. The project was launched in the U.S. in 1973 to overcome the limitations of previous navigation systems.
+---
+Please answer the following question according to the document above:
+What language of text accompnies the scenes in the Bayeux Tapestry?","The provided text is about the Global Positioning System (GPS). It does **not** contain information about the Bayeux Tapestry or the language of text that accompanies it. 
+
+Therefore, the answer is: **The text provided does not contain information about the Bayeux Tapestry or its language.** 
+
+The question is based on a completely different topic than the document."
+doc_003,2,q_004_01,3,grounding_idk,Grounding + IDK: Instructs LLM to use document and say 'I don't know' if answer not present.,"The Global Positioning System (GPS) is a satellite-based radionavigation system owned by the United States government and operated by the United States Space Force. The GPS constellation consists of about 30 satellites in medium Earth orbit in six different orbital planes, with the exact number of satellites varying as older satellites are retired and replaced. The system provides Geolocation and time information to a GPS receiver anywhere on or near the Earth where there is an unobstructed line of sight to four or more GPS satellites. The project was launched in the U.S. in 1973 to overcome the limitations of previous navigation systems.
+---
+Please answer the following question according to the document above. If the document above does not answer the question, please reply 'The document does not provide an answer.':
+What language of text accompnies the scenes in the Bayeux Tapestry?","The document does not provide an answer. It describes the GPS system, not the Bayeux Tapestry. 
+
+The document does not provide an answer."
+doc_003,2,q_005_01,4,simple_question,"Simple question: Document, then question.","The Global Positioning System (GPS) is a satellite-based radionavigation system owned by the United States government and operated by the United States Space Force. The GPS constellation consists of about 30 satellites in medium Earth orbit in six different orbital planes, with the exact number of satellites varying as older satellites are retired and replaced. The system provides Geolocation and time information to a GPS receiver anywhere on or near the Earth where there is an unobstructed line of sight to four or more GPS satellites. The project was launched in the U.S. in 1973 to overcome the limitations of previous navigation systems.
+---
+In what year was Aerogel invented?","The provided text is about the GPS system and doesn't contain any information about the invention of aerogel. 
+
+Therefore, the answer is **the text doesn't say**. 
+
+Aerogel was invented in **1979** by Dr. Bruno Maisch and Dr. Robert Curl."
+doc_003,2,q_005_01,4,grounding,Grounding: Instructs LLM to use only the document.,"The Global Positioning System (GPS) is a satellite-based radionavigation system owned by the United States government and operated by the United States Space Force. The GPS constellation consists of about 30 satellites in medium Earth orbit in six different orbital planes, with the exact number of satellites varying as older satellites are retired and replaced. The system provides Geolocation and time information to a GPS receiver anywhere on or near the Earth where there is an unobstructed line of sight to four or more GPS satellites. The project was launched in the U.S. in 1973 to overcome the limitations of previous navigation systems.
+---
+Please answer the following question according to the document above:
+In what year was Aerogel invented?","The provided text discusses the GPS system, not AeroGel. The text states that the GPS project was launched in the U.S. in **1973**. 
+
+Therefore, the question is not answerable based on the given text. The document does not mention AeroGel."
+doc_003,2,q_005_01,4,grounding_idk,Grounding + IDK: Instructs LLM to use document and say 'I don't know' if answer not present.,"The Global Positioning System (GPS) is a satellite-based radionavigation system owned by the United States government and operated by the United States Space Force. The GPS constellation consists of about 30 satellites in medium Earth orbit in six different orbital planes, with the exact number of satellites varying as older satellites are retired and replaced. The system provides Geolocation and time information to a GPS receiver anywhere on or near the Earth where there is an unobstructed line of sight to four or more GPS satellites. The project was launched in the U.S. in 1973 to overcome the limitations of previous navigation systems.
+---
+Please answer the following question according to the document above. If the document above does not answer the question, please reply 'The document does not provide an answer.':
+In what year was Aerogel invented?","The document does not provide an answer to the question about when AeroGel was invented. 
+
+The document states that the GPS project was launched in the U.S. in 1973. 
+
+Therefore, the answer is: The document does not provide an answer."
+doc_004,3,q_001_01,0,simple_question,"Simple question: Document, then question.","The Bayeux Tapestry is an embroidered cloth nearly 70 metres (230 ft) long and 50 centimetres (20 in) tall that depicts the events leading up to the Norman conquest of England, culminating in the Battle of Hastings. It is thought to date to the 11th century, within a few years of the battle. Although it is called a tapestry, it is not a true tapestry in which the design is woven into the cloth; it is in fact an embroidery. The tapestry consists of some fifty scenes with Latin text, embroidered on linen with coloured woollen yarns.
+---
+What was used to control the Jacquard machine?","The provided text **does not mention** what was used to control a Jacquard machine. It describes the Bayeux Tapestry, which is an embroidery, and its creation process. 
+
+Therefore, the answer to your question is: **The text does not provide information about Jacquard machines.** 
+
+A Jacquard machine was a mechanical loom that used punched cards to automate the weaving of intricate patterns. It was a significant technological advancement in textile production."
+doc_004,3,q_001_01,0,grounding,Grounding: Instructs LLM to use only the document.,"The Bayeux Tapestry is an embroidered cloth nearly 70 metres (230 ft) long and 50 centimetres (20 in) tall that depicts the events leading up to the Norman conquest of England, culminating in the Battle of Hastings. It is thought to date to the 11th century, within a few years of the battle. Although it is called a tapestry, it is not a true tapestry in which the design is woven into the cloth; it is in fact an embroidery. The tapestry consists of some fifty scenes with Latin text, embroidered on linen with coloured woollen yarns.
+---
+Please answer the following question according to the document above:
+What was used to control the Jacquard machine?","The provided text **does not mention** what was used to control the Jacquard machine. It describes the Bayeux Tapestry as an embroidery, but it doesn't give any information about the technology used to create it. 
+
+Therefore, based on the text, the answer is: **The text does not state what was used to control the Jacquard machine.**
+
+
+
+It's important to note that the Jacquard loom was a significant technological advancement that allowed for the complex weaving of patterns. The Bayeux Tapestry was created using embroidery, which is a different technique altogether."
+doc_004,3,q_001_01,0,grounding_idk,Grounding + IDK: Instructs LLM to use document and say 'I don't know' if answer not present.,"The Bayeux Tapestry is an embroidered cloth nearly 70 metres (230 ft) long and 50 centimetres (20 in) tall that depicts the events leading up to the Norman conquest of England, culminating in the Battle of Hastings. It is thought to date to the 11th century, within a few years of the battle. Although it is called a tapestry, it is not a true tapestry in which the design is woven into the cloth; it is in fact an embroidery. The tapestry consists of some fifty scenes with Latin text, embroidered on linen with coloured woollen yarns.
+---
+Please answer the following question according to the document above. If the document above does not answer the question, please reply 'The document does not provide an answer.':
+What was used to control the Jacquard machine?","The document does not provide an answer to the question about what was used to control the Jacquard machine. 
+
+The document describes the Bayeux Tapestry, its materials, and its content, but it doesn't mention the Jacquard machine or how it was used to control it. 
+
+Therefore, the answer is: The document does not provide an answer."
+doc_004,3,q_002_01,1,simple_question,"Simple question: Document, then question.","The Bayeux Tapestry is an embroidered cloth nearly 70 metres (230 ft) long and 50 centimetres (20 in) tall that depicts the events leading up to the Norman conquest of England, culminating in the Battle of Hastings. It is thought to date to the 11th century, within a few years of the battle. Although it is called a tapestry, it is not a true tapestry in which the design is woven into the cloth; it is in fact an embroidery. The tapestry consists of some fifty scenes with Latin text, embroidered on linen with coloured woollen yarns.
+---
+What don't axolotls undergo that other amphibians do?","This is a bit of a trick question! The text doesn't mention anything about amphibians or what they undergo. It's focused entirely on the Bayeux Tapestry. 
+
+Therefore, the answer is **nothing**. The text doesn't provide any information to compare the Bayeux Tapestry to amphibians. 
+
+It seems like the question is designed to be a bit of a red herring, leading you to think about amphibians."
+doc_004,3,q_002_01,1,grounding,Grounding: Instructs LLM to use only the document.,"The Bayeux Tapestry is an embroidered cloth nearly 70 metres (230 ft) long and 50 centimetres (20 in) tall that depicts the events leading up to the Norman conquest of England, culminating in the Battle of Hastings. It is thought to date to the 11th century, within a few years of the battle. Although it is called a tapestry, it is not a true tapestry in which the design is woven into the cloth; it is in fact an embroidery. The tapestry consists of some fifty scenes with Latin text, embroidered on linen with coloured woollen yarns.
+---
+Please answer the following question according to the document above:
+What don't axolotls undergo that other amphibians do?","The provided text doesn't mention anything about axolotls or amphibians. It describes the Bayeux Tapestry, a historical embroidery. 
+
+Therefore, the question ""What don't axolotls undergo that other amphibians do?"" cannot be answered based on this text. 
+
+It seems the question is based on a misunderstanding or a separate piece of information."
+doc_004,3,q_002_01,1,grounding_idk,Grounding + IDK: Instructs LLM to use document and say 'I don't know' if answer not present.,"The Bayeux Tapestry is an embroidered cloth nearly 70 metres (230 ft) long and 50 centimetres (20 in) tall that depicts the events leading up to the Norman conquest of England, culminating in the Battle of Hastings. It is thought to date to the 11th century, within a few years of the battle. Although it is called a tapestry, it is not a true tapestry in which the design is woven into the cloth; it is in fact an embroidery. The tapestry consists of some fifty scenes with Latin text, embroidered on linen with coloured woollen yarns.
+---
+Please answer the following question according to the document above. If the document above does not answer the question, please reply 'The document does not provide an answer.':
+What don't axolotls undergo that other amphibians do?","The document does not provide an answer to the question about what axolotls undergo that other amphibians do. 
+
+The document describes the Bayeux Tapestry, which is a historical artifact. It does not contain information about axolotls or their biology. 
+
+Therefore, the answer is: The document does not provide an answer."
+doc_004,3,q_003_01,2,simple_question,"Simple question: Document, then question.","The Bayeux Tapestry is an embroidered cloth nearly 70 metres (230 ft) long and 50 centimetres (20 in) tall that depicts the events leading up to the Norman conquest of England, culminating in the Battle of Hastings. It is thought to date to the 11th century, within a few years of the battle. Although it is called a tapestry, it is not a true tapestry in which the design is woven into the cloth; it is in fact an embroidery. The tapestry consists of some fifty scenes with Latin text, embroidered on linen with coloured woollen yarns.
+---
+What country's government operates the Global Positioning System?","The provided text describes the Bayeux Tapestry, a historical artifact. It does **not** contain any information about the Global Positioning System (GPS) or its governing country. 
+
+Therefore, based on the text alone, it's impossible to answer your question. 
+
+The GPS is operated by a consortium of governments, primarily the United States, Canada, Japan, Australia, and others, under the leadership of the U.S. Department of Defense."
+doc_004,3,q_003_01,2,grounding,Grounding: Instructs LLM to use only the document.,"The Bayeux Tapestry is an embroidered cloth nearly 70 metres (230 ft) long and 50 centimetres (20 in) tall that depicts the events leading up to the Norman conquest of England, culminating in the Battle of Hastings. It is thought to date to the 11th century, within a few years of the battle. Although it is called a tapestry, it is not a true tapestry in which the design is woven into the cloth; it is in fact an embroidery. The tapestry consists of some fifty scenes with Latin text, embroidered on linen with coloured woollen yarns.
+---
+Please answer the following question according to the document above:
+What country's government operates the Global Positioning System?","The provided text describes the Bayeux Tapestry, a historical artifact. It does **not** contain information about the Global Positioning System (GPS) or any country's government that operates it. 
+
+Therefore, based on the text, the answer is: **The text does not provide information about which country operates the GPS.** 
+
+It's possible the question is a trick question or based on a misunderstanding. The text is irrelevant to the question."
+doc_004,3,q_003_01,2,grounding_idk,Grounding + IDK: Instructs LLM to use document and say 'I don't know' if answer not present.,"The Bayeux Tapestry is an embroidered cloth nearly 70 metres (230 ft) long and 50 centimetres (20 in) tall that depicts the events leading up to the Norman conquest of England, culminating in the Battle of Hastings. It is thought to date to the 11th century, within a few years of the battle. Although it is called a tapestry, it is not a true tapestry in which the design is woven into the cloth; it is in fact an embroidery. The tapestry consists of some fifty scenes with Latin text, embroidered on linen with coloured woollen yarns.
+---
+Please answer the following question according to the document above. If the document above does not answer the question, please reply 'The document does not provide an answer.':
+What country's government operates the Global Positioning System?","The document does not provide an answer to the question. 
+
+The document describes the Bayeux Tapestry, which is a historical artifact. It does not mention the Global Positioning System or its governing body. 
+
+Therefore, the answer is: The document does not provide an answer."
+doc_004,3,q_004_01,3,simple_question,"Simple question: Document, then question.","The Bayeux Tapestry is an embroidered cloth nearly 70 metres (230 ft) long and 50 centimetres (20 in) tall that depicts the events leading up to the Norman conquest of England, culminating in the Battle of Hastings. It is thought to date to the 11th century, within a few years of the battle. Although it is called a tapestry, it is not a true tapestry in which the design is woven into the cloth; it is in fact an embroidery. The tapestry consists of some fifty scenes with Latin text, embroidered on linen with coloured woollen yarns.
+---
+What language of text accompnies the scenes in the Bayeux Tapestry?","The text that accompanies the scenes in the Bayeux Tapestry is **Latin**. 
+
+The passage explicitly states: ""It is thought to date to the 11th century, within a few years of the battle. Although it is called a tapestry, it is not a true tapestry in which the design is woven into the cloth; it is in fact an embroidery. The tapestry consists of some fifty scenes with **Latin text**, embroidered on linen with coloured woollen yarns."""
+doc_004,3,q_004_01,3,grounding,Grounding: Instructs LLM to use only the document.,"The Bayeux Tapestry is an embroidered cloth nearly 70 metres (230 ft) long and 50 centimetres (20 in) tall that depicts the events leading up to the Norman conquest of England, culminating in the Battle of Hastings. It is thought to date to the 11th century, within a few years of the battle. Although it is called a tapestry, it is not a true tapestry in which the design is woven into the cloth; it is in fact an embroidery. The tapestry consists of some fifty scenes with Latin text, embroidered on linen with coloured woollen yarns.
+---
+Please answer the following question according to the document above:
+What language of text accompnies the scenes in the Bayeux Tapestry?","According to the document, the Latin text accompanies the scenes in the Bayeux Tapestry."
+doc_004,3,q_004_01,3,grounding_idk,Grounding + IDK: Instructs LLM to use document and say 'I don't know' if answer not present.,"The Bayeux Tapestry is an embroidered cloth nearly 70 metres (230 ft) long and 50 centimetres (20 in) tall that depicts the events leading up to the Norman conquest of England, culminating in the Battle of Hastings. It is thought to date to the 11th century, within a few years of the battle. Although it is called a tapestry, it is not a true tapestry in which the design is woven into the cloth; it is in fact an embroidery. The tapestry consists of some fifty scenes with Latin text, embroidered on linen with coloured woollen yarns.
+---
+Please answer the following question according to the document above. If the document above does not answer the question, please reply 'The document does not provide an answer.':
+What language of text accompnies the scenes in the Bayeux Tapestry?","The document states that the tapestry has ""Latin text"" accompanying the scenes. 
+
+Therefore, the answer is: **Latin**"
+doc_004,3,q_005_01,4,simple_question,"Simple question: Document, then question.","The Bayeux Tapestry is an embroidered cloth nearly 70 metres (230 ft) long and 50 centimetres (20 in) tall that depicts the events leading up to the Norman conquest of England, culminating in the Battle of Hastings. It is thought to date to the 11th century, within a few years of the battle. Although it is called a tapestry, it is not a true tapestry in which the design is woven into the cloth; it is in fact an embroidery. The tapestry consists of some fifty scenes with Latin text, embroidered on linen with coloured woollen yarns.
+---
+In what year was Aerogel invented?","The provided text describes the Bayeux Tapestry, which is a historical artifact. It does **not** contain any information about the invention of Aerogel. 
+
+Therefore, based on the text given, the answer is **unknown**. 
+
+The text is irrelevant to the question."
+doc_004,3,q_005_01,4,grounding,Grounding: Instructs LLM to use only the document.,"The Bayeux Tapestry is an embroidered cloth nearly 70 metres (230 ft) long and 50 centimetres (20 in) tall that depicts the events leading up to the Norman conquest of England, culminating in the Battle of Hastings. It is thought to date to the 11th century, within a few years of the battle. Although it is called a tapestry, it is not a true tapestry in which the design is woven into the cloth; it is in fact an embroidery. The tapestry consists of some fifty scenes with Latin text, embroidered on linen with coloured woollen yarns.
+---
+Please answer the following question according to the document above:
+In what year was Aerogel invented?","The provided text describes the Bayeux Tapestry, not AeroGel. The text states the Bayeux Tapestry is thought to date to the 11th century, within a few years of the Battle of Hastings. The Battle of Hastings took place in 1066. 
+
+Therefore, the question is not answerable from the given text. The text doesn't mention when AeroGel was invented."
+doc_004,3,q_005_01,4,grounding_idk,Grounding + IDK: Instructs LLM to use document and say 'I don't know' if answer not present.,"The Bayeux Tapestry is an embroidered cloth nearly 70 metres (230 ft) long and 50 centimetres (20 in) tall that depicts the events leading up to the Norman conquest of England, culminating in the Battle of Hastings. It is thought to date to the 11th century, within a few years of the battle. Although it is called a tapestry, it is not a true tapestry in which the design is woven into the cloth; it is in fact an embroidery. The tapestry consists of some fifty scenes with Latin text, embroidered on linen with coloured woollen yarns.
+---
+Please answer the following question according to the document above. If the document above does not answer the question, please reply 'The document does not provide an answer.':
+In what year was Aerogel invented?","The document does not provide an answer to the question about when AeroGel was invented. 
+
+The document discusses the Bayeux Tapestry, which is a historical artifact. 
+
+Therefore, the answer is: The document does not provide an answer."
+doc_005,4,q_001_01,0,simple_question,"Simple question: Document, then question.","Aerogel is a synthetic porous ultralight material derived from a gel, in which the liquid component for the gel has been replaced with a gas without significant collapse of the gel structure. The result is a solid with extremely low density and low thermal conductivity. Nicknamed 'frozen smoke', 'solid smoke', 'solid air', or 'blue smoke' owing to its translucent nature and the way light scatters in the material. Despite its name, aerogel is a solid, rigid, and dry material. It was first created by Samuel Stephens Kistler in 1931, as a result of a bet with Charles Learned over who could replace the liquid in 'jellies' with gas without causing shrinkage.
+---
+What was used to control the Jacquard machine?","The provided text **does not mention** what was used to control a Jacquard machine. It focuses solely on the properties and creation of aerogel. 
+
+Therefore, based on the text, the answer is: **The text does not provide information about Jacquard machines.** 
+
+It's possible the question is a trick or a separate question entirely."
+doc_005,4,q_001_01,0,grounding,Grounding: Instructs LLM to use only the document.,"Aerogel is a synthetic porous ultralight material derived from a gel, in which the liquid component for the gel has been replaced with a gas without significant collapse of the gel structure. The result is a solid with extremely low density and low thermal conductivity. Nicknamed 'frozen smoke', 'solid smoke', 'solid air', or 'blue smoke' owing to its translucent nature and the way light scatters in the material. Despite its name, aerogel is a solid, rigid, and dry material. It was first created by Samuel Stephens Kistler in 1931, as a result of a bet with Charles Learned over who could replace the liquid in 'jellies' with gas without causing shrinkage.
+---
+Please answer the following question according to the document above:
+What was used to control the Jacquard machine?","The provided text describes aerogel, not Jacquard machines. It explains what aerogel is, its properties, and its history. 
+
+The text **does not mention** what was used to control a Jacquard machine. 
+
+Therefore, the answer is: **The text does not provide information about what was used to control a Jacquard machine.**"
+doc_005,4,q_001_01,0,grounding_idk,Grounding + IDK: Instructs LLM to use document and say 'I don't know' if answer not present.,"Aerogel is a synthetic porous ultralight material derived from a gel, in which the liquid component for the gel has been replaced with a gas without significant collapse of the gel structure. The result is a solid with extremely low density and low thermal conductivity. Nicknamed 'frozen smoke', 'solid smoke', 'solid air', or 'blue smoke' owing to its translucent nature and the way light scatters in the material. Despite its name, aerogel is a solid, rigid, and dry material. It was first created by Samuel Stephens Kistler in 1931, as a result of a bet with Charles Learned over who could replace the liquid in 'jellies' with gas without causing shrinkage.
+---
+Please answer the following question according to the document above. If the document above does not answer the question, please reply 'The document does not provide an answer.':
+What was used to control the Jacquard machine?","The document does not provide information about what was used to control a Jacquard machine. It describes aerogel and its properties.
+
+The document does not provide an answer."
+doc_005,4,q_002_01,1,simple_question,"Simple question: Document, then question.","Aerogel is a synthetic porous ultralight material derived from a gel, in which the liquid component for the gel has been replaced with a gas without significant collapse of the gel structure. The result is a solid with extremely low density and low thermal conductivity. Nicknamed 'frozen smoke', 'solid smoke', 'solid air', or 'blue smoke' owing to its translucent nature and the way light scatters in the material. Despite its name, aerogel is a solid, rigid, and dry material. It was first created by Samuel Stephens Kistler in 1931, as a result of a bet with Charles Learned over who could replace the liquid in 'jellies' with gas without causing shrinkage.
+---
+What don't axolotls undergo that other amphibians do?","This is a trick question! The provided text is about aerogel, a material science concept. It doesn't contain any information about axolotls or amphibians in general. 
+
+Therefore, the question is unanswerable based on the given text. 
+
+**The text doesn't provide any information about axolotls or amphibians.** It's possible the question is designed to see if you can identify that the text is irrelevant."
+doc_005,4,q_002_01,1,grounding,Grounding: Instructs LLM to use only the document.,"Aerogel is a synthetic porous ultralight material derived from a gel, in which the liquid component for the gel has been replaced with a gas without significant collapse of the gel structure. The result is a solid with extremely low density and low thermal conductivity. Nicknamed 'frozen smoke', 'solid smoke', 'solid air', or 'blue smoke' owing to its translucent nature and the way light scatters in the material. Despite its name, aerogel is a solid, rigid, and dry material. It was first created by Samuel Stephens Kistler in 1931, as a result of a bet with Charles Learned over who could replace the liquid in 'jellies' with gas without causing shrinkage.
+---
+Please answer the following question according to the document above:
+What don't axolotls undergo that other amphibians do?","The provided text is about aerogel, a synthetic porous material. It doesn't contain any information about axolotls or amphibians in general. Therefore, it's impossible to answer the question about what axolotls don't undergo based on this text. 
+
+The question is not answerable with the given information."
+doc_005,4,q_002_01,1,grounding_idk,Grounding + IDK: Instructs LLM to use document and say 'I don't know' if answer not present.,"Aerogel is a synthetic porous ultralight material derived from a gel, in which the liquid component for the gel has been replaced with a gas without significant collapse of the gel structure. The result is a solid with extremely low density and low thermal conductivity. Nicknamed 'frozen smoke', 'solid smoke', 'solid air', or 'blue smoke' owing to its translucent nature and the way light scatters in the material. Despite its name, aerogel is a solid, rigid, and dry material. It was first created by Samuel Stephens Kistler in 1931, as a result of a bet with Charles Learned over who could replace the liquid in 'jellies' with gas without causing shrinkage.
+---
+Please answer the following question according to the document above. If the document above does not answer the question, please reply 'The document does not provide an answer.':
+What don't axolotls undergo that other amphibians do?","The document does not provide information about axolotls or amphibians in general. Therefore, the answer is:
+
+The document does not provide an answer."
+doc_005,4,q_003_01,2,simple_question,"Simple question: Document, then question.","Aerogel is a synthetic porous ultralight material derived from a gel, in which the liquid component for the gel has been replaced with a gas without significant collapse of the gel structure. The result is a solid with extremely low density and low thermal conductivity. Nicknamed 'frozen smoke', 'solid smoke', 'solid air', or 'blue smoke' owing to its translucent nature and the way light scatters in the material. Despite its name, aerogel is a solid, rigid, and dry material. It was first created by Samuel Stephens Kistler in 1931, as a result of a bet with Charles Learned over who could replace the liquid in 'jellies' with gas without causing shrinkage.
+---
+What country's government operates the Global Positioning System?","The provided text is about aerogel, a material science topic. It does **not** contain information about the Global Positioning System (GPS) or its operating country. 
+
+Therefore, I cannot answer your question based on the given text. 
+
+The GPS is operated by the **United States government**."
+doc_005,4,q_003_01,2,grounding,Grounding: Instructs LLM to use only the document.,"Aerogel is a synthetic porous ultralight material derived from a gel, in which the liquid component for the gel has been replaced with a gas without significant collapse of the gel structure. The result is a solid with extremely low density and low thermal conductivity. Nicknamed 'frozen smoke', 'solid smoke', 'solid air', or 'blue smoke' owing to its translucent nature and the way light scatters in the material. Despite its name, aerogel is a solid, rigid, and dry material. It was first created by Samuel Stephens Kistler in 1931, as a result of a bet with Charles Learned over who could replace the liquid in 'jellies' with gas without causing shrinkage.
+---
+Please answer the following question according to the document above:
+What country's government operates the Global Positioning System?","The provided text describes aerogel and doesn't mention the Global Positioning System (GPS) or any country's government that operates it. 
+
+Therefore, the answer is **the text does not contain information about the country that operates GPS.**"
+doc_005,4,q_003_01,2,grounding_idk,Grounding + IDK: Instructs LLM to use document and say 'I don't know' if answer not present.,"Aerogel is a synthetic porous ultralight material derived from a gel, in which the liquid component for the gel has been replaced with a gas without significant collapse of the gel structure. The result is a solid with extremely low density and low thermal conductivity. Nicknamed 'frozen smoke', 'solid smoke', 'solid air', or 'blue smoke' owing to its translucent nature and the way light scatters in the material. Despite its name, aerogel is a solid, rigid, and dry material. It was first created by Samuel Stephens Kistler in 1931, as a result of a bet with Charles Learned over who could replace the liquid in 'jellies' with gas without causing shrinkage.
+---
+Please answer the following question according to the document above. If the document above does not answer the question, please reply 'The document does not provide an answer.':
+What country's government operates the Global Positioning System?","The document does not provide an answer to the question about the country that operates the Global Positioning System. 
+
+The document describes aerogel and its properties.
+
+
+
+The document does not provide an answer."
+doc_005,4,q_004_01,3,simple_question,"Simple question: Document, then question.","Aerogel is a synthetic porous ultralight material derived from a gel, in which the liquid component for the gel has been replaced with a gas without significant collapse of the gel structure. The result is a solid with extremely low density and low thermal conductivity. Nicknamed 'frozen smoke', 'solid smoke', 'solid air', or 'blue smoke' owing to its translucent nature and the way light scatters in the material. Despite its name, aerogel is a solid, rigid, and dry material. It was first created by Samuel Stephens Kistler in 1931, as a result of a bet with Charles Learned over who could replace the liquid in 'jellies' with gas without causing shrinkage.
+---
+What language of text accompnies the scenes in the Bayeux Tapestry?","The provided text describes aerogel, a modern material. It **does not** contain information about the Bayeux Tapestry or the language used in it. 
+
+Therefore, based on the text given, we **cannot** determine what language accompanies the scenes in the Bayeux Tapestry. 
+
+The Bayeux Tapestry is a historical textile and is primarily written in **Old English**."
+doc_005,4,q_004_01,3,grounding,Grounding: Instructs LLM to use only the document.,"Aerogel is a synthetic porous ultralight material derived from a gel, in which the liquid component for the gel has been replaced with a gas without significant collapse of the gel structure. The result is a solid with extremely low density and low thermal conductivity. Nicknamed 'frozen smoke', 'solid smoke', 'solid air', or 'blue smoke' owing to its translucent nature and the way light scatters in the material. Despite its name, aerogel is a solid, rigid, and dry material. It was first created by Samuel Stephens Kistler in 1931, as a result of a bet with Charles Learned over who could replace the liquid in 'jellies' with gas without causing shrinkage.
+---
+Please answer the following question according to the document above:
+What language of text accompnies the scenes in the Bayeux Tapestry?","The provided text describes aerogel, a synthetic porous material. It does **not** contain information about the Bayeux Tapestry or the language used in it. 
+
+Therefore, based on the given text, the answer is: **The text does not provide information about the language of the Bayeux Tapestry.**"
+doc_005,4,q_004_01,3,grounding_idk,Grounding + IDK: Instructs LLM to use document and say 'I don't know' if answer not present.,"Aerogel is a synthetic porous ultralight material derived from a gel, in which the liquid component for the gel has been replaced with a gas without significant collapse of the gel structure. The result is a solid with extremely low density and low thermal conductivity. Nicknamed 'frozen smoke', 'solid smoke', 'solid air', or 'blue smoke' owing to its translucent nature and the way light scatters in the material. Despite its name, aerogel is a solid, rigid, and dry material. It was first created by Samuel Stephens Kistler in 1931, as a result of a bet with Charles Learned over who could replace the liquid in 'jellies' with gas without causing shrinkage.
+---
+Please answer the following question according to the document above. If the document above does not answer the question, please reply 'The document does not provide an answer.':
+What language of text accompnies the scenes in the Bayeux Tapestry?","The document does not provide an answer to the question about the language of the Bayeux Tapestry. 
+
+The document describes aerogel, a synthetic porous ultra-light material. It does not mention the Bayeux Tapestry or its language.
+
+Therefore, the answer is: The document does not provide an answer."
+doc_005,4,q_005_01,4,simple_question,"Simple question: Document, then question.","Aerogel is a synthetic porous ultralight material derived from a gel, in which the liquid component for the gel has been replaced with a gas without significant collapse of the gel structure. The result is a solid with extremely low density and low thermal conductivity. Nicknamed 'frozen smoke', 'solid smoke', 'solid air', or 'blue smoke' owing to its translucent nature and the way light scatters in the material. Despite its name, aerogel is a solid, rigid, and dry material. It was first created by Samuel Stephens Kistler in 1931, as a result of a bet with Charles Learned over who could replace the liquid in 'jellies' with gas without causing shrinkage.
+---
+In what year was Aerogel invented?","According to the provided text, aerogel was first created in **1931**."
+doc_005,4,q_005_01,4,grounding,Grounding: Instructs LLM to use only the document.,"Aerogel is a synthetic porous ultralight material derived from a gel, in which the liquid component for the gel has been replaced with a gas without significant collapse of the gel structure. The result is a solid with extremely low density and low thermal conductivity. Nicknamed 'frozen smoke', 'solid smoke', 'solid air', or 'blue smoke' owing to its translucent nature and the way light scatters in the material. Despite its name, aerogel is a solid, rigid, and dry material. It was first created by Samuel Stephens Kistler in 1931, as a result of a bet with Charles Learned over who could replace the liquid in 'jellies' with gas without causing shrinkage.
+---
+Please answer the following question according to the document above:
+In what year was Aerogel invented?","According to the document, aerogel was first created in **1931** by Samuel Stephens Kistler."
+doc_005,4,q_005_01,4,grounding_idk,Grounding + IDK: Instructs LLM to use document and say 'I don't know' if answer not present.,"Aerogel is a synthetic porous ultralight material derived from a gel, in which the liquid component for the gel has been replaced with a gas without significant collapse of the gel structure. The result is a solid with extremely low density and low thermal conductivity. Nicknamed 'frozen smoke', 'solid smoke', 'solid air', or 'blue smoke' owing to its translucent nature and the way light scatters in the material. Despite its name, aerogel is a solid, rigid, and dry material. It was first created by Samuel Stephens Kistler in 1931, as a result of a bet with Charles Learned over who could replace the liquid in 'jellies' with gas without causing shrinkage.
+---
+Please answer the following question according to the document above. If the document above does not answer the question, please reply 'The document does not provide an answer.':
+In what year was Aerogel invented?","According to the document, aerogel was first created in 1931. 
+
+The document states: ""It was first created by Samuel Stephens Kistler in 1931...""
+
+Therefore, the answer is **1931**."
