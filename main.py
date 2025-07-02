@@ -1,11 +1,16 @@
 import litellm
 import csv
 import datetime
+import time
 from data import EXPERIMENT_DATA
 
 # --- Configuration ---
 # LiteLLM model parameters (https://docs.litellm.ai/docs/providers)
-MODEL_NAME = "gpt-4o-mini"  # Example: "ollama/gemma", "gpt-3.5-turbo"
+# MODEL_NAME = "gpt-4o-mini"  # Example: "ollama/gemma", "gpt-3.5-turbo"
+# MODEL_NAME = "ollama/gemma3n:e2b"
+# MODEL_NAME = "ollama/llama3.2:latest"
+# MODEL_NAME = "gemini/gemini-2.0-flash-lite"
+MODEL_NAME = "gemini/gemini-2.5-flash"
 # To use OpenAI models, ensure your OPENAI_API_KEY environment variable is set.
 # For Ollama, ensure Ollama is running and the model is pulled (e.g., `ollama pull gemma`)
 
@@ -80,7 +85,8 @@ def run_experiment():
                 print(f"    Prompt Type: {prompt_key}...")
                 llm_answer = get_llm_response(MODEL_NAME, prompt_full_text, LITELLM_PARAMS)
                 print(f"      LLM Response: {llm_answer[:100]}...") # Log a snippet
-
+                
+#                time.sleep(10)  # needed for free gemini models
                 results.append({
                     "document_id": document_id,
                     "doc_index": doc_idx,
